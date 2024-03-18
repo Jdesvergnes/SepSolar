@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const apiKey = process.env.AIzaSyBYQ3wPVVfPA3HQxVYBMPeJksGSySGOZco
+const apiKey = process.env.API_KEY
 
 
 function initMap() {

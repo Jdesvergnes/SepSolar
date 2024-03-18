@@ -1,3 +1,8 @@
+require('dotenv').config();
+
+const apiKey = process.env.AIzaSyBYQ3wPVVfPA3HQxVYBMPeJksGSySGOZco
+
+
 function initMap() {
     // Map options
     var mapOptions = {

@@ -1,0 +1,49 @@
+.paragraph-section {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    /* Ensure relative positioning for absolute positioning of the image */
+}
+
+.paragraph-section .container {
+    position: relative;
+}
+
+.paragraph-section .section-image {
+    position: flex;
+    top: 0;
+    left: 0;
+    /* Adjust the position of the image */
+    width: 500px;
+    /* Set the width of the image */
+    height: auto;
+    border-radius: 10px;
+}
+
+.paragraph-section .content {
+    padding-left: 20px;
+    /* Adjust the padding to accommodate the image */
+    /* Add some padding to create space between the image and the text */
+}
+
+.paragraph-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.paragraph-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+body { 
+background-color: #032f70 !important;
+}
+
+p {
+    color: white;
+}
+

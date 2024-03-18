@@ -1,0 +1,40 @@
+body {
+    overflow-y: auto;
+    /* Enable vertical scrolling for the entire page */
+    padding: 20px;
+    /* Add some padding to the body */
+}
+/* Add styles for other sections as needed */
+
+.paragraph-section {
+    padding: 50px 0;
+    color: #fff;
+}
+
+.paragraph-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.paragraph-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.paragraph-section img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.paragraph-section.white-background h3,
+.paragraph-section.white-background p {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .paragraph-section {
+        padding: 30px 0;
+    }
+}

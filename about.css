@@ -1,0 +1,103 @@
+.president-image,
+.specialist-image {
+        width: 150%;
+        max-height: 300px;
+        /* Set the maximum height */
+        object-fit: contain;
+        /* Ensure the entire image fits within the container */
+        border-top-left-radius: 8px;
+        /* Rounded corners for image */
+        border-top-right-radius: 8px;
+        /* Rounded corners for image */
+    /* Center the image horizontally */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 10px;
+    /* Adjust spacing between nav items */
+}
+
+/* Section styles */
+section {
+    padding: 50px 0;
+    /* Adjust padding as needed */
+    background-color: #fff;
+    /* Change as needed */
+}
+
+h2 {
+    font-size: 24px;
+    /* Adjust heading font size */
+    margin-bottom: 30px;
+    /* Add space below heading */
+}
+
+/* Employee card styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow effect */
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    /* Rounded corners for image */
+    border-top-right-radius: 8px;
+    /* Rounded corners for image */
+}
+
+.card-body {
+    padding: 25px;
+    /* Adjust padding to make the text more condensed */
+    text-align: center;
+    /* Center-align the text */
+}
+
+.card-title {
+    font-size: 20px;
+    /* Adjust title font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Add space below title */
+}
+
+.card-text {
+    font-size: 16px;
+    /* Adjust text font size */
+    color: #0876d6;
+    /* Adjust text color */
+}
+
+.card-bio {
+        font-size: 16px;
+        /* Adjust text font size */
+        color: #1176cf;
+        /* Adjust text color */
+        text-align: center;
+        /* Center align the text */
+        line-height: 1.5;
+        /* Adjust line height for more condensed look */
+        max-width: 55%;
+        /* Limit the maximum width of the text */
+        margin: 0 auto;
+        /* Center the text horizontally */
+}
+
+section {
+    padding: 50px 0;
+    /* Adjust padding as needed */
+    background-color: #f0f0f0;
+    /* Change the background color */
+}

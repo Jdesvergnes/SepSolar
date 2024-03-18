@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0440c269 !important;
+    /* Background color for the entire page */
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    color: black;
+    /* Set a higher z-index for the text content */
+}
+
+.icon-circle-box {
+    color: white;
+    /* Set the text color to white */
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f6f6;
+    /* Background color for the FAQ container */
+    position: relative;
+    /* Add relative positioning */
+    z-index: 1;
+    /* Set a higher z-index */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding-left: 20px;
+}
+
+.faq-toggle {
+    display: none;
+}
+
+.faq-toggle:checked+.faq-question {
+    color: blue;
+}
+
+.faq-toggle:checked+.faq-question::after {
+    content: "▲";
+}
+
+.faq-toggle:checked~.faq-answer {
+    display: block;
+}

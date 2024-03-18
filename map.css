@@ -1,0 +1,72 @@
+header {
+    position: relative;
+    text-align: center;
+    color: #fff; /* Set the text color */
+}
+
+.header-content {
+    position: relative;
+    background: url('your-header-image.jpg') center/cover; /* Set the background image */
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 10px; /* Adjust the margin based on your design */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333; /* Set the background color for the button */
+    color: #fff; /* Set the text color for the button */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Set the background color for the dropdown */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff; /* Set the text color for dropdown links */
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #555; /* Set the background color for dropdown links on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.scroll-to-map {
+    display: block;
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #fff; /* Arrow color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Change arrow color on hover */
+.scroll-to-map:hover {
+    color: #ffcc00; /* Adjust the hover color as needed */
+}
+
+
+#map {
+    height: 800px; /* Set the desired height */
+    width: 100%; /* Set the desired width */
+}

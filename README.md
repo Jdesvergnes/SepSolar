@@ -1,2 +1,2 @@
-"# SepSolar" 
+"SepSolar" 
 Sustainable Energy Professionals Inc (S.E.P.) is a company based in Tampa, Florida specializing in site acquisition and leasing of Large Scale Solar Developments in Florida, Massachusetts, Michigan, Illinois, Indiana and New York. In 2013 Stephen Christy, the company’s President and CEO, founded S.E.P. to support the ever growing needs of the Large Scale Solar industry. This was my first website i worked on for a company.

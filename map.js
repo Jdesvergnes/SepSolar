@@ -1,7 +1,3 @@
-require('dotenv').config();
-const apiKey = process.env.API_KEY
-
-
 function initMap() {
     // Map options
     var mapOptions = {

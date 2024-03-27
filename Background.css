@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Exo', sans-serif;
-    overflow: hidden; 
 }
 
 .wrapper {
@@ -23,6 +22,20 @@ body {
 
 .icon-circle-box {
     color: white; /* Set the text color to white */
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .col-md-4 {
+        width: 100%;
+        /* Full width for columns on smaller screens */
+    }
+
+    .text-center {
+        text-align: center;
+        /* Center-align text on smaller screens */
+    }
 }
 
 #carouselExample {

@@ -8,6 +8,7 @@
 
 .paragraph-section .container {
     position: relative;
+    padding-top: 50px;
 }
 
 .paragraph-section .section-image {
@@ -47,3 +48,41 @@ p {
     color: white;
 }
 
+/* Set the default width for section images */
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* Add margin between sections */
+}
+
+@media (min-width: 768px) {
+
+    /* Adjust the width of images for medium-sized screens */
+    .section-image {
+        width: 100%;
+        max-width: 400px;
+        /* Set a maximum width for the images */
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Adjust the width of images for large screens */
+    .section-image {
+        width: 100%;
+        max-width: 500px;
+        /* Set a maximum width for the images */
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* Adjust the width of images for extra-large screens */
+    .section-image {
+        width: 100%;
+        max-width: 600px;
+        /* Set a maximum width for the images */
+    }
+}

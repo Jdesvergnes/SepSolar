@@ -5,9 +5,23 @@
     padding: 0;
 }
 
+
+
+.context {
+    margin: 0 auto;
+    /* Center the content horizontally */
+    max-width: 2000px;
+    /* Set a maximum width for the content */
+    padding: 0 20px;
+    /* Add padding to the sides of the content */
+}
+
+
 body {
     font-family: 'Exo', sans-serif;
     overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .wrapper {
@@ -23,6 +37,11 @@ body {
 
 .icon-circle-box {
     color: white; /* Set the text color to white */
+}
+
+.icon-circle-box h4 {
+    margin-top: 20px;
+    /* Add margin to the top of the h4 headings */
 }
 
 @media (max-width: 768px) {

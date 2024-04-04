@@ -36,7 +36,7 @@ function initMap() {
         map.setCenter(marker4.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '1718 Route 1 -North Minisink, NY 2.66',
+            content: '1718 Route 1 - North Minisink, NY 2.66 MW',
         });
         infoWindow.open(map, marker4);
     });
@@ -51,7 +51,7 @@ function initMap() {
         map.setCenter(marker5.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '218 Buckley Rd. A - East Whitehall, NY 2.0',
+            content: '218 Buckley Rd. A - East Whitehall, NY 2.0 MW',
         });
         infoWindow.open(map, marker5);
     });
@@ -65,7 +65,7 @@ function initMap() {
         map.setCenter(marker6.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '218 Buckley Rd. B - West Whitehall, NY 2.66',
+            content: '218 Buckley Rd. B - West Whitehall, NY 2.66 MW',
         });
         infoWindow.open(map, marker6);
     });
@@ -79,7 +79,7 @@ function initMap() {
         map.setCenter(marker7.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Greenmount Cemetery Lane Whitehall, NY 2.66',
+            content: 'Greenmount Cemetery Lane Whitehall, NY 2.66 MW',
         });
         infoWindow.open(map, marker7);
     });
@@ -93,7 +93,7 @@ function initMap() {
         map.setCenter(marker8.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '232 Gardner Rd Hubbardston, MA 1.4',
+            content: '232 Gardner Rd Hubbardston, MA 1.4 MW',
         });
         infoWindow.open(map, marker8);
     });
@@ -107,7 +107,7 @@ function initMap() {
         map.setCenter(marker9.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '240 Gardner Rd Hubbardston, MA 1.4',
+            content: '240 Gardner Rd Hubbardston, MA 1.4 MW',
         });
         infoWindow.open(map, marker9);
     });
@@ -121,7 +121,7 @@ function initMap() {
         map.setCenter(marker10.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '5813A Minaville Road Florida, NY 2.66',
+            content: '5813A Minaville Road Florida, NY 2.66 MW',
         });
         infoWindow.open(map, marker10);
     });
@@ -135,7 +135,7 @@ function initMap() {
         map.setCenter(marker11.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '725 Guelphwood Road Southbridge, MA 725',
+            content: '725 Guelphwood Road Southbridge, MA 7.5 MW',
         });
         infoWindow.open(map, marker11);
     });
@@ -149,7 +149,7 @@ function initMap() {
         map.setCenter(marker12.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '107 New Braintree Road North Brookfield, MA 650',
+            content: '107 New Braintree Road North Brookfield, MA 6.5 MW',
         });
         infoWindow.open(map, marker12);
     });
@@ -163,7 +163,7 @@ function initMap() {
         map.setCenter(marker13.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Cape Cod Lumber Facility Abington, MA 1.0',
+            content: 'Cape Cod Lumber Facility Abington, MA 1.0 MW',
         });
         infoWindow.open(map, marker13);
     });
@@ -177,7 +177,7 @@ function initMap() {
         map.setCenter(marker14.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Westminster Country Club Westminster, MA 650',
+            content: 'Westminster Country Club Westminster, MA 6.5 MW',
         });
         infoWindow.open(map, marker14);
     });
@@ -191,7 +191,7 @@ function initMap() {
         map.setCenter(marker15.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '250 Spring Hill Road Barre, MA 2.40',
+            content: '250 Spring Hill Road Barre, MA 2.40 MW',
         });
         infoWindow.open(map, marker15);
     });
@@ -205,7 +205,7 @@ function initMap() {
         map.setCenter(marker16.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'South Barre Road Barre, MA 650',
+            content: 'South Barre Road Barre, MA 6.5 MW',
         });
         infoWindow.open(map, marker16);
     });
@@ -219,7 +219,7 @@ function initMap() {
         map.setCenter(marker17.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '85 Wauwinet Road Barre, MA 1.38',
+            content: '85 Wauwinet Road Barre, MA 1.38 MW',
         });
         infoWindow.open(map, marker17);
     });
@@ -233,7 +233,7 @@ function initMap() {
         map.setCenter(marker18.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '125 Adams Road East Brookfield, MA 6.77',
+            content: '125 Adams Road East Brookfield, MA 6.77 MW',
         });
         infoWindow.open(map, marker18);
     });
@@ -289,7 +289,7 @@ function initMap() {
         map.setCenter(marker22.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '30 Washburn Road Freetown, MA 2.77',
+            content: '30 Washburn Road Freetown, MA 2.77 MW',
         });
         infoWindow.open(map, marker22);
     });
@@ -303,7 +303,7 @@ function initMap() {
         map.setCenter(marker23.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '519 Route 151 A-North Oppenheim, NY 1.81',
+            content: '519 Route 151 A-North Oppenheim, NY 1.81 MW',
         });
         infoWindow.open(map, marker23);
     });
@@ -317,7 +317,7 @@ function initMap() {
         map.setCenter(marker24.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '1448 Route 211 (A) Mt. Hope, NY 2.80',
+            content: '1448 Route 211 (A) Mt. Hope, NY 2.80 MW',
         });
         infoWindow.open(map, marker24);
     });
@@ -331,7 +331,7 @@ function initMap() {
         map.setCenter(marker25.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '519 Route 151 B-South Oppenheim, NY 2.80',
+            content: '519 Route 151 B-South Oppenheim, NY 2.80 MW',
         });
         infoWindow.open(map, marker25);
     });
@@ -359,7 +359,7 @@ function initMap() {
         map.setCenter(marker27.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '0 Elmwood Avenue Johnstown, NY 4.40',
+            content: '0 Elmwood Avenue Johnstown, NY 4.40 MW',
         });
         infoWindow.open(map, marker27);
     });
@@ -373,7 +373,7 @@ function initMap() {
         map.setCenter(marker28.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '583A Five Mile Line Road A-East Lisbon, NY 2.78',
+            content: '583A Five Mile Line Road A-East Lisbon, NY 2.78 MW',
         });
         infoWindow.open(map, marker28);
     });
@@ -387,7 +387,7 @@ function initMap() {
         map.setCenter(marker29.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '77 Scotch Settlement Road Gouverneur, NY 1.44',
+            content: '77 Scotch Settlement Road Gouverneur, NY 1.44 MW',
         });
         infoWindow.open(map, marker29);
     });
@@ -401,7 +401,7 @@ function initMap() {
         map.setCenter(marker30.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '0 State Hwy 29 Broadalbin, NY 2.66',
+            content: '0 State Hwy 29 Broadalbin, NY 2.66 MW',
         });
         infoWindow.open(map, marker30);
     });
@@ -415,7 +415,7 @@ function initMap() {
         map.setCenter(marker31.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '171-173 Co Hwy 142 A Johnstown, NY 2.66',
+            content: '171-173 Co Hwy 142 A Johnstown, NY 2.66 MW',
         });
         infoWindow.open(map, marker31);
     });
@@ -429,7 +429,7 @@ function initMap() {
         map.setCenter(marker32.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '512 State Hwy 67 Amsterdam, NY 5.60',
+            content: '512 State Hwy 67 Amsterdam, NY 5.60 MW',
         });
         infoWindow.open(map, marker32);
     });
@@ -443,7 +443,7 @@ function initMap() {
         map.setCenter(marker33.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '664 Alexander Road Duanesburg, NY 2.66',
+            content: '664 Alexander Road Duanesburg, NY 2.66 MW',
         });
         infoWindow.open(map, marker33);
     });
@@ -457,7 +457,7 @@ function initMap() {
         map.setCenter(marker34.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Lockport Road Oakfield/Elba, NY 500.0',
+            content: 'Lockport Road Oakfield/Elba, NY 5.0 MW',
         });
         infoWindow.open(map, marker34);
     });
@@ -471,7 +471,7 @@ function initMap() {
         map.setCenter(marker35.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'R Drive North Lee Township, MI 500.0',
+            content: 'R Drive North Lee Township, MI 5.0 MW',
         });
         infoWindow.open(map, marker35);
     });
@@ -485,7 +485,7 @@ function initMap() {
         map.setCenter(marker36.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: '23 Mile Road Lee / Clarence Township, MI 500.0',
+            content: '23 Mile Road Lee / Clarence Township, MI 5.0 MW',
         });
         infoWindow.open(map, marker36);
     });
@@ -499,7 +499,7 @@ function initMap() {
         map.setCenter(marker37.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'E 3000 N Road Blackstone, IL 400.0',
+            content: 'E 3000 N Road Blackstone, IL 4.0 MW',
         });
         infoWindow.open(map, marker37);
     });
@@ -513,7 +513,7 @@ function initMap() {
         map.setCenter(marker38.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Canton South Boston Road Salem, IN 750.0',
+            content: 'Canton South Boston Road Salem, IN 7.5 MW',
         });
         infoWindow.open(map, marker38);
     });
@@ -527,7 +527,7 @@ function initMap() {
         map.setCenter(marker39.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Atterberry Road Welch, LA 1,000.0',
+            content: 'Atterberry Road Welch, LA 10 MW',
         });
         infoWindow.open(map, marker39);
     });
@@ -541,7 +541,7 @@ function initMap() {
         map.setCenter(marker40.getPosition());
         // Optionally, you can open an info window with additional information
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Mohawk Trail Sulphur, LA-Battery Storage 500',
+            content: 'Mohawk Trail Sulphur, LA-Battery Storage 5.0 MW',
         });
         infoWindow.open(map, marker40);
     });

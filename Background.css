@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -14,6 +15,11 @@
     /* Set a maximum width for the content */
     padding: 0 20px;
     /* Add padding to the sides of the content */
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    color: black;
+    /* Set a higher z-index for the text content */
 }
 
 
@@ -26,13 +32,6 @@ body {
 
 .wrapper {
     overflow: hidden;
-}
-
-.context {
-    width: 100%;
-    position: absolute;
-    background: transparent;
-    color: black; /* Set a higher z-index for the text content */
 }
 
 .icon-circle-box {
@@ -55,6 +54,25 @@ body {
     .text-center {
         text-align: center;
         /* Center-align text on smaller screens */
+    }
+
+    .carousel-img {
+        height: 50vh;
+        /* Adjust height for smaller screens */
+    }
+
+    .area {
+        height: 50vh;
+        /* Adjust height for smaller screens */
+    }
+
+    .circles li {
+        width: 10px;
+        /* Adjust size for smaller screens */
+        height: 10px;
+        /* Adjust size for smaller screens */
+        animation-duration: 15s;
+        /* Adjust animation duration for smaller screens */
     }
 }
 
